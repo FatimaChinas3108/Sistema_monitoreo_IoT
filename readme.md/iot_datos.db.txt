@@ -1,0 +1,53 @@
+# 🌡️ Sistema de Monitoreo IoT con Arduino y Python
+
+Este proyecto mide la temperatura y humedad usando un sensor DHT11, un Arduino UNO y un script en Python que guarda los datos en una base de datos SQLite.
+
+---
+
+## 🚀 Objetivo
+Crear un sistema IoT básico que capture información del entorno y la guarde para su análisis, simulando una arquitectura de telemetría en tiempo real.
+
+---
+
+## 🧩 Materiales
+
+| Elemento | Descripción |
+|-----------|-------------|
+| Arduino UNO | Placa base para microcontrolador |
+| Sensor DHT11 | Sensor de temperatura y humedad |
+| Cables jumper | Conexión entre componentes |
+| Python 3 | Lenguaje para recibir y almacenar los datos |
+| SQLite | Base de datos local |
+
+---
+
+## ⚙️ Funcionamiento
+1. Arduino lee los valores de temperatura y humedad.
+2. Envía los datos a través del puerto serial (USB).
+3. Python recibe los datos, los guarda en una base de datos y los muestra en pantalla.
+4. Los datos pueden graficarse o visualizarse en tiempo real.
+
+---
+
+
+
+---
+
+## 📊 Ejemplo de salida
+2025-11-12 18:25:42] Temperatura: 26.5°C | Humedad: 58.3% [2025-11-12 18:25:44] Temperatura: 26.6°C | Humedad: 58.1%
+
+---
+
+## 🧠 Tecnologías utilizadas
+- Arduino IDE  
+- Python 3  
+- SQLite  
+- Sensor DHT11
+
+---
+
+## 👩‍💻 Autora
+Fátima Graciela Chiñas Martínez  
+Villahermosa, Tabasco  
+📧 fatimachinas3108@gmail.com  
+📞 9932305610
